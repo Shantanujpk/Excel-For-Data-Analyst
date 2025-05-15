@@ -1,0 +1,71 @@
+📅 Week 1–2: Foundations + Excel + Stats + KPIs
+Goal: Build a strong base with Excel, statistics, and business understanding.
+
+Skills:
+Excel functions: VLOOKUP, XLOOKUP, INDEX-MATCH, IF, COUNTIF(S), SUMIF(S)
+Pivot Tables, Conditional Formatting, Charts
+Basic Statistics: Mean, Median, Mode, SD, Percentiles
+Data Thinking: KPIs, asking the right questions
+Hands-On:
+Create a Sales Performance Dashboard
+Analyze mock sales/finance data for trends & outliers
+
+📅 Week 3: SQL (Basics to Intermediate)
+Goal: Master querying, joins, and data cleaning using SQL
+Skills:
+SQL Basics: SELECT, WHERE, GROUP BY, ORDER BY, LIMIT
+Aggregates: COUNT, SUM, AVG, MIN, MAX
+JOINS: INNER, LEFT, RIGHT, FULL
+Subqueries, CTEs
+Window Functions: ROW_NUMBER(), RANK(), LAG(), LEAD()
+Hands-On:
+Practice SQL on LeetCode, Mode, or StrataScratch
+Build project: Customer Behavior & Retention Analysis
+
+📅 Week 4: Python + EDA + Data Cleaning
+Goal: Clean data and extract insights using Python
+Skills:
+Python Essentials: Lists, dictionaries, loops, conditionals
+Libraries: pandas, numpy
+Data Cleaning: Handling nulls, duplicates, type conversion
+EDA: Outliers, correlation, distribution
+Hands-On:
+Analyze Titanic/Superstore data
+Project: EDA on E-commerce Dataset
+Write reusable data cleaning functions
+(Optional) Start DSA – Grind75 (lightweight)
+
+📅 Week 5: Data Visualization + Power BI + Storytelling
+Goal: Learn visual storytelling using both code & BI tools
+Skills:
+Python Viz: matplotlib, seaborn (bar, box, heatmaps)
+BI Tools: Power BI or Tableau – filters, slicers, drilldowns
+Storytelling: Choosing the right chart, highlighting key trends
+Hands-On:
+Create dashboards from cleaned CSVs
+Projects:
+Marketing Campaign Dashboard
+Customer Segmentation Report
+
+📅 Week 6: ML for Analysts + Final Projects
+Goal: Learn applied ML basics + wrap-up portfolio project
+Skills:
+KPIs: CLTV, CAC, Conversion Rate
+Funnel Analysis & A/B Testing logic
+ML Intro:
+Linear & Logistic Regression
+K-Means Clustering
+scikit-learn basics
+Model Evaluation: Accuracy, Confusion Matrix
+Hands-On:
+Build: Churn Prediction Model (Logistic Regression)
+Segment customers using K-Means
+Final Project: User Segmentation + Dashboard Insights
+
+✅ Tips to Succeed:
+Spend 2–3 hours daily
+Document your work (GitHub + LinkedIn posts)
+Create a Notion board or Excel tracker to track skill progress
+Build your portfolio with 3–5 projects
+Practice mock interviews or case studies weekly
+
