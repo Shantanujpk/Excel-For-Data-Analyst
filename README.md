@@ -154,3 +154,74 @@ Change Case	=PROPER(), =UPPER(), =LOWER()
 Fix Negative Values	=IF(value < 0, fix, value)
 Split Data	Ctrl + E, LEFT, RIGHT, TEXTSPLIT
 Data Validation	Data → Data Validation
+
+
+📘 Chapter 4: Excel Logic Functions - IF, IFS, AND, OR (Beginner-Friendly Guide)
+✨ Purpose of This Sheet
+This Excel sheet helps beginners understand how to use IF, IFS, AND, and OR functions in Excel to calculate incentives and logical decisions based on data.
+🔹 Part 1: Incentive Calculation Using IF and IFS
+📊 Data Overview:
+We have a list of employees with:
+Emp ID
+Name
+Department
+Sales amount
+Target status (Complete or Incomplete)
+
+🎯 Goal:
+Calculate Incentive based on whether the target is Complete or Incomplete.
+✅ Logic Used:
+1. IF Formula
+=IF([Target Status]="Complete", [Sales]*15%, [Sales]*10%)
+This means:
+If the target is "Complete", give 15% of sales as incentive.
+If not, give 10% of sales.
+2. IFS Formula
+=IFS([Target Status]="Complete", [Sales]*15%, [Target Status]="Incomplete", [Sales]*10%)
+This does the same as above but uses IFS instead of nested IF
+✅ Both formulas give the same output, just written differently.
+
+🔹 Part 2: Using AND and OR for Logical Conditions
+📊 Data Overview:
+We have:
+Department
+Working years
+Salary
+Promotion Status (Yes/No)
+Separate columns showing use of AND and OR
+
+🎯 Goal:
+Understand how AND and OR can be used in Excel to check multiple conditions.
+✅ AND Function:
+Returns TRUE only if ALL conditions are true
+Example:
+=IF(AND(Department="Finance", WorkingYears>=4), "Eligible", "Not Eligible")
+✔️ This will return "Eligible" only if:
+Department is Finance
+AND Working Years is 4 or more
+
+✅ OR Function:
+Returns TRUE if ANY one condition is true
+
+Example:
+=IF(OR(Department="Finance", WorkingYears>5), "Eligible", "Not Eligible")
+✔️ This will return "Eligible" if:
+Department is Finance OR
+Working Years is more than 5
+
+🔄 Combined AND and OR:
+You can also use both together:
+=IF(AND(Department="Finance", OR(Promotion="Yes", WorkingYears>5)), "Yes", "No")
+This checks:
+Is department Finance
+AND either Promotion is Yes or Working Years > 5
+
+🧠 Summary Table
+Function	Meaning	Example	Result
+IF	One condition	=IF(A1>50, "Pass", "Fail")	Checks one condition
+IFS	Multiple conditions	=IFS(A1>90, "A", A1>80, "B")	Multiple checks
+AND	All must be true	=AND(A1>50, B1="Yes")	True only if both
+OR	Any one is true	=OR(A1>50, B1="Yes")	True if any one is true
+
+
+
