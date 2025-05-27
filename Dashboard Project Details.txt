@@ -1,0 +1,82 @@
+
+Problem Statement : 
+
+
+Steps: 
+1) Data understanding 
+2) Building Logics as per end results
+3) Applying formulas
+4) Creating reports
+
+Probelm 
+1) Find top 5 salse executives
+2) Stop Autfit column on update 
+3) Find ed bottom 5 salse executives
+4) Find target hit by sales executives by % (top 5 executives)
+5) Find away from target hit by sales executives by % (top 5 executives)
+6) Create pivot (bar) chart for top 5 sales executives 
+7) Add Data labels for each chart/bar
+8) Create pie chart for top 5 trget hit
+9) Line Chart for (5) with data lebel 
+10) Add slicers for region 
+11) Connect the slicer to all visulizations
+12) Connect the slicer to all visulizations (Simplar) - use shapre, developer mode, cell link(true/false)
+13) Record Macro
+14) Automate Pivot tables with Visual basic (VBA)
+15) Assign Macro to each dashboard 
+
+
+VBA Script: 
+
+Sub Macro3()
+If Sheet1.Range("A1").Value = True Then
+
+    ActiveSheet.Shapes.Range(Array("Region")).Select
+    ActiveWorkbook.SlicerCaches("Slicer_Region").PivotTables.AddPivotTable ( _
+        ActiveSheet.PivotTables("PivotTable1"))
+Else
+
+    ActiveWorkbook.SlicerCaches("Slicer_Region").PivotTables.RemovePivotTable ( _
+        ActiveSheet.PivotTables("PivotTable1"))
+        
+End If
+
+If Sheet1.Range("F1").Value = True Then
+
+    ActiveSheet.Shapes.Range(Array("Region")).Select
+    ActiveWorkbook.SlicerCaches("Slicer_Region").PivotTables.AddPivotTable ( _
+        ActiveSheet.PivotTables("PivotTable3"))
+Else
+
+    ActiveWorkbook.SlicerCaches("Slicer_Region").PivotTables.RemovePivotTable ( _
+        ActiveSheet.PivotTables("PivotTable3"))
+        
+End If
+
+
+If Sheet1.Range("K1").Value = True Then
+
+    ActiveSheet.Shapes.Range(Array("Region")).Select
+    ActiveWorkbook.SlicerCaches("Slicer_Region").PivotTables.AddPivotTable ( _
+        ActiveSheet.PivotTables("PivotTable4"))
+Else
+
+    ActiveWorkbook.SlicerCaches("Slicer_Region").PivotTables.RemovePivotTable ( _
+        ActiveSheet.PivotTables("PivotTable4"))
+        
+End If
+
+If Sheet1.Range("O1").Value = True Then
+
+    ActiveSheet.Shapes.Range(Array("Region")).Select
+    ActiveWorkbook.SlicerCaches("Slicer_Region").PivotTables.AddPivotTable ( _
+        ActiveSheet.PivotTables("PivotTable5"))
+Else
+
+    ActiveWorkbook.SlicerCaches("Slicer_Region").PivotTables.RemovePivotTable ( _
+        ActiveSheet.PivotTables("PivotTable5"))
+        
+End If
+End Sub
+
+
