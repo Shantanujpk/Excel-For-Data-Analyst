@@ -33,7 +33,7 @@ Each chapter walks you through essential Excel skills with examples:
 ## 💡 How to Use This Repo
 
 1. Download or clone the repo  
-2. Open each `.xlsx` file in Excel (desktop or browser)  
+2. Open each `.xlsx` file in Excel (desktop or browser), prefer Desktop  
 3. Follow the examples and try the exercises  
 4. Build your own projects or dashboards based on what you learn!
 
