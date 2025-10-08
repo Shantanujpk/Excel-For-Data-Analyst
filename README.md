@@ -1,6 +1,6 @@
 # 📊 Excel Tutorial for Aspiring Data Analysts
 
-Welcome to the **Excel Tutorial** repository — a beginner-friendly, step-by-step learning resource designed for anyone looking to master Excel for **Data Analysis**.
+Welcome to the **Excel Tutorial** repository , a beginner-friendly, step-by-step learning resource designed for anyone looking to master Excel for **Data Analysis**.
 
 This repo includes practice files for each core Excel concept, used in real-world analytics and reporting.
 
